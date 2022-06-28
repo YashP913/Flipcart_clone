@@ -1,0 +1,318 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="Shortcut icon" href="favicon.ico">
+  <link rel="icon" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+  <!--link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet"-->
+  <title>Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books &amp; More. Best Offers!
+  </title>
+  <style>
+    header{
+      /* height: 57px;
+      margin-bottom: 10px; */
+    }     
+    
+    footer{
+      height:332px;
+      background-color: #172337;
+    }
+    .header_top{
+       height: 56px;
+       padding-top: 10px;
+       padding-left: 185px;
+       background-color: #2874f0;
+    
+    }
+    .header_bottom{
+       height: 40px;
+       background-color: #ffffff;
+    }
+    body{
+      background-color: #f1f4f6;
+      font-family: 'Roboto', sans-serif;
+      font-weight: bold;
+    }
+    div.a_cont {
+      width:99%;
+      padding: 0px;
+      height:3349px;
+    
+    }
+    .a_main{
+      height:281px;
+      margin-top: 8px;
+      border :1px dashed red;
+    }
+    .a_main2{
+      height:362px;
+      margin-top: 10px;
+      border-top: 1px solid #ebebeb;
+      background-color: #ffffff;
+      box-shadow:0px 1px 3px 1px rgba(0,0,0,0.1);
+    }
+    .a_main3{
+      height:238px;
+      margin-top: 20px;
+      border :1px dashed orange;
+    }
+    .a_main4{
+      height:352px;
+      margin-top: 10px;
+      background-color: #fff;
+    }
+    .a_main5{
+      height:237px;
+      margin-top: 10px;
+      border :1px dashed purple;
+    }
+    .a_main6{
+      height:377px;
+      margin-top: 10px;
+      border :1px solid red;
+      border-top: 1px solid #e2e2e2;
+    }
+    .a_control i{
+      color:#212121 !important;
+      font-size: 1.8em;
+    }
+    #demo.carousel-control-prev{
+      border-top-left-radius:5px;
+      border-bottom-left-radius: 5px;     
+    }
+    #demo.carousel-control-next{
+      border-top-left-radius:5px;
+      border-bottom-left-radius: 5px;
+    }
+    .a_bcwhite{
+      background:#fff;
+    }
+    .cbox{
+      width:100%;
+      height: 278px;
+      border:1px solid red;
+    }
+    .cbox .row .col{
+      border:1px solid blue;
+    }
+    .search_form{
+      width: 480px;
+      height: 37px;
+      background:#fff;
+      float:left;
+      margin-left: 12px;
+      margin-right:25px;
+      box-shadow: 0px 0px 3px 2px rgba(48, 18, 155, 0.1);
+      border-bottom-left-radius: 1px;
+      border-bottom-right-radius: 1px;
+      border-top-left-radius: 1px;
+      border-top-right-radius: 1px;
+    }
+    .search_form input[type=text]{
+      width:460px;
+      margin-left: 15px;
+      margin-top: 8px;
+      border: none;
+      font-size: 1em;
+      
+    }
+    .search_form input:focus{
+      outline: none;
+    }
+    .search_form .fa-search{
+      
+    }
+    .ep{
+      font-style:italic;
+      font-size:0.7em;
+    }
+    .explore{
+      color: #fff;
+    }
+    .plus{
+      color:#d8d229;
+    }
+    .search{
+      float:left;
+    }
+    .a_ep{
+      position: relative;
+      top:-10px;
+    }
+    .ep_explore{
+     font-size: 17px;
+    }
+    .a_top_nav a{
+      color:#fff;
+    }
+    .a_top_nav .fa-shoping-cart{
+    color: #fff;
+    }
+    .a_top_nav .log_sign{
+      background-color: #fff;
+      /* z-index: 5; */
+    }
+    .submenu{
+      width:241px;
+      /* height:203px; */
+      background-color:#fff;
+      position:fixed;
+      top:55px;
+      color:;
+      z-index:2;
+      border-bottom-left-radius: 5px;
+      border-bottom-right-radius: 5px;
+      /* border: 2px solid red; */
+      display: none;
+    }
+    .submenu a{
+      color:#282829;
+      height: 51px;
+      border-bottom: 1px solid #efeff0;
+      line-height: 30px;
+      font-weight: 150;
+      /* border-color: rgba(0,0,0,0.1) ; */
+    }
+    .a_top_nav > li:hover > .submenu{
+      display: block;
+    }
+    .a_top_nav .nav_item{
+      position: relative;
+    
+    }
+    .a_top_nav > li{
+      /* background-color: #172337; */
+      height: 45px;
+    }
+    .carousel-item img{
+      z-index: 1;
+    }
+    .header_bottom_nav li{
+      float: left;
+    }
+    .header_bottom_nav a{
+      background: red;
+      color: #212121;
+      font-size: 0.9em;
+      ;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+     <div class="header_top">
+       <a href="#" class="search">
+         <img width="80" src="images/flip.png">
+         <div class="a_ep">
+           <div class="ep_explore">
+              <span class="ep explore">Explore</span> <span class="ep plus">Plus</span><img width="11px" src="images/plus.png">
+           </div>
+         </div>
+       </a>
+       <form class="search_form float_left">
+         <input class="lead" type="text" name="search" placeholder="Search for products,brands and more"><i class="fa-solid fa-magnifying-glass"></i>
+         <div>
+          <input type="text">
+          <i class="fas fa-search">
+          </i>
+         </div>
+       </form>
+           <ul class="nav nav-pills a_top_nav"> 
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Login &amp; Signup</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Become a Seller</a></li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">More</a>
+                <ul class="nav flex-column submenu">
+                  <li class="nav-item">
+                     <a class="nav-link" href="#"><i class="fa fa-bell"></i>Notification preferences</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fa fa-question-circle"></i>24x7 Costumer Care</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fa fa-chart"></i>Advertise</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fa fa-downl"></i>Download App</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fa fa-cart-shopping"></i>Cart</a>
+               
+              </li>
+            </ul>
+          </div>
+     <div class="header_bottom header_bottom_nav">
+      <ul class="nav">
+       <li class="nav-item a_bottom">
+        <a class="nav-link" href="#">Top Offers</a>
+       </li>
+       <li class="nav-item">
+        <a class="nav-link" href="#">Grocery</a>
+       </li>
+       <li class="nav-item">
+        <a class="nav-link" href="#">Mobiles</a>
+       </li>
+       <li class="nav-item">
+        <a class="nav-link" href="#">Fashion</a>
+       </li>
+       <li class="nav-item">
+        <a class="nav-link" href="#">Electronics</a>
+       </li>
+       <li class="nav-item">
+        <a class="nav-link" href="#">Home</a>
+       </li>
+       <li class="nav-item">
+        <a class="nav-link" href="#">Appliances</a>
+       </li>
+       <li class="nav-item">
+        <a class="nav-link" href="#">Travel</a>
+       </li>
+       <li class="nav-item">
+        <a class="nav-link" href="#">Beauty , Toys & More</a>
+       </li>
+      </ul>
+     </div>
+  </header>
+
+  <div class="container-fluid a_cont">
+    <div class="a_main">
+      <div id="demo" class="carousel slide" data-ride="carousel">
+
+        <!--The Slideshow-->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+             <img width="1350" height="278" src="https://images.unsplash.com/photo-1656063660511-5fd5f7d01b5a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80">
+          </div> 
+        </div>
+
+      </div>
+    </div>
+    <div class="a_main2"></div>
+    <div class="a_main3"></div>
+    <div class="a_main4"></div>
+    <div class="a_main5"></div>
+    <div class="a_main6"></div>
+  </div>
+  <footer>
+    
+  </footer>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
